@@ -1,21 +1,29 @@
 *
 {
-    max-width: 1200px;
+    width: 100%;
+    max-width: 100%;
     color: black;
     margin: 1% auto;
     background-color: #d0d0d0;
     font-family: 'Verdana', sans-serif;
     font-size: 100%;
 }
-
+.content
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    position: absolute;
+    top: 0.5%;
+    width: 90%;
+}
 footer
 {
     text-align: center;
     font-size: 90%;
     border-top: 1px solid black;
+    border-width: auto;
     position: absolute;
     bottom: 0;
-    width: 100%;
 }
 .tittleFooter
 {
